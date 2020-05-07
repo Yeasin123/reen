@@ -1,0 +1,256 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+     .slider-section  .d-none {
+        display: block !important;
+       }
+    html{
+        font-size:40.5%;
+    }
+    .top-header{
+        text-align:center;
+    }
+    .top-header .right-ul{
+        float:none;
+    }
+    .top-header .right-ul li a {
+    font-size: 1.5rem;
+    }
+    .top-header .left-ul li a {
+    font-size: 1.5rem;
+    }
+    .bottom-header .navbar-brand img {
+    width: 70%;
+    }
+    .carousel-item .cara1{
+    bottom:5%
+    }
+    .carousel-item .cara1 h1 {
+    font-size: 2rem;
+    line-height: 1rem;
+    letter-spacing: .2rem;
+    padding: 1rem 0;
+   }
+    .carousel-item .cara1 p {
+    font-size: 1.2rem;
+    padding: 0 0rem;
+    }
+    .carousel-item .cara1 .btn-info {
+    padding: .5rem 2rem;
+    font-size: 1.2rem;
+    margin: 1rem 0 1rem 0;
+    }
+    .carousel-indicators li {
+      width: 14px;
+    }
+    .beautiful-section .beautiful-title h2 {
+    font-size: 3rem;
+    }
+    .beautiful-section .beautiful-title p {
+    padding: 0 1.2rem;
+   }
+    .media-inner .media-body p {
+    padding: 0 1rem;
+    }
+    .work-with p {
+    font-size: 1.6rem;
+    margin-top: 1.3rem;
+    padding: 0;
+    }
+    .footer-top-section{
+        text-align:center;
+    }
+    .third-col ul li img{
+    padding-right:0rem;
+    }
+    .footer-top-section p {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+   }
+    .foot1 input {
+    margin-bottom: 3rem; 
+    }
+    .footer-section{
+        text-align:center;
+    }
+    .footer-section p {
+    font-size: 1.5rem;
+    }
+    .footer-section .footer-ul li a {
+    font-size: 1.5rem;
+    }
+    .footer-section .footer-ul{
+        float:none;
+    }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+        .slider-section  .d-none {
+        display: block !important;
+       }
+      html{
+        font-size:45.5%;
+    }
+     .top-header{
+        text-align:center;
+    }
+    .top-header .right-ul{
+        float:none;
+    }
+    .top-header .right-ul li a {
+    font-size: 1.5rem;
+    }
+    .top-header .left-ul li a {
+    font-size: 1.5rem;
+    }
+      .bottom-header .navbar-brand img {
+        width: 70%;
+    }
+    
+    .carousel-item .cara1{
+    bottom:15%
+    }
+    .carousel-item .cara1 h1 {
+    font-size: 3.5rem;
+    line-height: 1rem;
+    letter-spacing: .2rem;
+    padding: 1rem 0;
+   }
+    .carousel-item .cara1 p {
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+    line-height: 2rem;
+    }
+    .carousel-item .cara1 .btn-info {
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    }
+    .carousel-indicators li {
+      width: 1.8rem;
+    }
+    .beautiful-section .beautiful-title p {
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: #506a85;
+    margin: 2.3rem 0 3.5rem 0;
+    padding:0 7.8rem;
+    }
+    .media-inner .media-body p {
+    font-size: 1.7rem;
+    padding: 0 2rem;
+    }
+    .work-title p {
+
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 0 9rem;
+    }
+    .left-work p {
+     padding: 1rem 0;
+    font-size: 2rem;
+    }
+    .left-work h6 {
+    font-size: 2rem;
+    }
+    .work-with p {
+    font-size: 2rem;
+    padding: 0 8.7rem;
+    }
+    .work-with .btn-info {
+    font-size: 1.8rem;
+    }
+    .footer-top-section{
+        text-align:center;
+    }
+    .footer-top-section p {
+    font-size: 2rem;
+    line-height: 2.7rem;
+    padding: 0 8rem;
+    }
+    .footer-top-section h6 {
+    font-size: 1.5rem;
+    }
+    .foot1 input {
+    margin-bottom: 5rem;
+    }
+    .footer-section{
+    text-align:center;
+    }
+     .footer-section p {
+    font-size: 2rem;
+    }
+  .footer-section .footer-ul li a {
+    font-size:2rem;
+    }
+    .footer-section .footer-ul{
+        float:none;
+    }
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+        .slider-section  .d-none {
+        display: block !important;
+       }
+        html{
+        font-size:48.5%;
+    }
+    .top-header .right-ul li a {
+    font-size: 2rem;
+    }
+    .top-header .left-ul li {
+    font-size: 2rem;
+  }
+    .beautiful-section .beautiful-title p {
+    font-size: 2rem;
+    padding: 0 15.2rem;
+    }
+    .work-with p {
+    font-size: 2rem;  
+    padding: 0 14.7rem;
+    }
+    .footer-section p {
+    color: #506a85;
+    font-size: 2rem;
+    }
+    .footer-top-section h4 {
+    margin: 4.1rem 0 1.4rem 0;
+    font-size: 2.5rem;
+    }
+    .footer-section .footer-ul li a {
+    padding: .4rem;
+    font-size: 2rem;
+   }
+   
+}
+
+
+
+
+
+
+
+
+

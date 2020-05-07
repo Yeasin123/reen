@@ -1,0 +1,449 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+     
+}
+html{
+  font-size:62.5%;
+}
+
+
+.material-scrolltop{
+    background: #08c;
+    font-size: 2rem;
+    color: #fff;
+    z-index: 20;
+}
+.material-scrolltop:focus{
+    border:none;
+}
+.navbar-toggler {
+    font-size: 2.25rem;
+    margin-right: 1rem;;
+    color: #fff;
+    background: #506a85;
+    line-height: 1.3rem;
+    padding:1rem 1.5rem;
+}
+
+/**************************************
+    Header Section Code Start
+***************************************/
+.header-section{
+    width:100%;
+    
+}
+.btn-outline-success {
+    color: #506a85;
+    border: none;
+    font-size: 1.5rem;
+}
+.top-header{
+    width:100%;
+    background:#f5f7fa;
+    padding:.3rem 0;
+    
+}
+.top-header .left-ul li{
+    display: inline-block;
+     margin-top:1rem;
+}
+.top-header .left-ul li a{
+   color:#506a85;
+}
+.top-header .left-ul li i{
+    padding:0 1rem;
+    color:#506a85;
+}
+
+.top-header .right-ul {
+     display: inline-block;
+    float:right;
+    margin-top:1rem;
+    
+}
+.top-header .right-ul li{
+    display: inline-block;
+    margin-left:2rem;
+}
+.top-header .right-ul li a{
+    color:#506a85;
+}
+
+.bottom-header{
+    width:100%;
+    background:#ffffff;
+}
+.navbar{
+    width:100%;
+}
+.bottom-header .navbar{
+    padding:.5rem;
+}
+.bottom-header .navbar-brand img{
+    padding:1rem;
+    margin-right: 2rem;
+}
+.bottom-header .main-nav ul li{
+    margin-left:1rem;
+    
+}
+
+.bottom-header .main-nav .active .nav-link {
+    color:#506a85;
+    font-weight: 700;  
+    font-size: 2rem;;
+}
+.bottom-header .main-nav  .nav-link{
+    color:#506a85;
+    font-weight: 400;
+     font-size: 2rem;
+}
+.bottom-header .main-nav  .nav-link:hover {
+    color:#506a85;
+    font-weight: 700;
+}
+
+/**************************************
+    Header Section Code End
+***************************************/
+
+
+/**************************************
+    Silder Section Code Start
+***************************************/
+
+.slider-section{
+    width:100%;
+}
+
+.slider-section .container-fluid{
+    padding:0rem;
+  
+}
+.carousel-item .cara1{
+    bottom:30%
+}
+ .carousel-item .cara1 h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing:.5rem;
+    color:#fff;
+     padding:1rem 0;
+     text-transform: uppercase;
+}
+
+.carousel-item .cara1 p{
+    color:#a3b1bf;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding:0 10rem;
+}   
+.carousel-item .cara1 .btn-info{
+    padding:.8rem 4rem;
+    background:#00bc9c;
+    color:#fff;
+    font-size:1.5rem;
+    font-weight: 500;
+    margin-top: 3rem;
+     transition: 1s
+}
+.carousel-item .cara1 .btn-info:hover{
+    background:transparent;
+    transition: 1s
+}
+
+.carousel-item .cara5 .btn-info{
+    padding:.8rem 4rem;
+    background:#00bc9c;
+    color:#fff;
+    font-size:1.5rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #08c;
+}
+
+
+/**************************************
+    Silder Section Code eND
+***************************************/
+
+
+
+/**************************************
+    Beautiful Section Code Start
+***************************************/
+.beautiful-section{
+    width:100%;
+    padding:3rem 0 8rem 0;
+    background:#ffffff;
+    
+}
+
+
+.beautiful-section .beautiful-title {
+    text-align: center;
+    margin-top: 5rem;
+}
+.beautiful-section .beautiful-title h2 {
+    font-weight: 500;
+    font-size: 3.5rem;
+    color: #506a85;
+}
+.beautiful-section .beautiful-title p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #506a85;
+    margin: 2.3rem 0 3.5rem 0;
+    padding:0 29.2rem;
+}
+.media-inner{
+    width: 100%;  
+    margin-top:4rem;
+}
+.media-inner .media-body h5{
+    color:#506a85;
+    font-weight:600;
+    font-size:3rem;
+}
+
+.media-inner .media-body p{
+    color:#506a85;
+    font-size:1.5rem;
+    font-weight:400;
+}
+
+
+/**************************************
+    Beautiful Section Code End
+***************************************/
+
+
+/**************************************
+    Work Section Code Start
+***************************************/
+.work-section{
+    width:100%;
+    background:#f2f5f7;
+    padding:3rem 0 5rem 0;
+    text-align: center;
+}
+.work-title h2 {
+    font-weight: 500;
+    font-size: 3.5rem;
+    color: #506a85;
+    padding: 4.1rem 0 1.5rem 0;
+}
+.work-title p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #506a85;
+    margin-bottom: 3rem;
+}
+.left-work {
+    background: #fff;
+    padding-bottom: 3.1rem;
+    margin-top: 3rem;
+}
+
+.left-work p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #506a85;
+    margin-top: 1.5rem;
+}
+.left-work h6{
+    color: #506a85;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    margin: 7.5rem 0 7rem 0;
+    border:.1rem solid #00bc9c;
+}
+
+/**************************************
+    Work Section Code End
+***************************************/
+
+
+/**************************************
+    Work-with Section Code Start
+***************************************/
+
+.work-with {
+   width:100%;
+   padding:7rem 0;
+   background:#fff;
+    text-align: center;
+}
+.work-with h2{
+     font-weight: 500;
+    font-size: 3.5rem;
+    color: #506a85;
+}
+.work-with p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #506a85;
+    margin-top: 1.5rem;
+    padding: 0 27.7rem;
+}
+.work-with .btn-info{
+     padding:.8rem 4rem;
+    background:#00bc9c;
+    color:#fff;
+    font-size:1.5rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    transition:1s
+   
+}
+.work-with .btn-info:hover{
+     background:#2F4052;
+    transition:1s
+   
+}
+
+/**************************************
+    Work-with Section Code End
+***************************************/
+
+
+
+/**************************************
+    Footer-Top Section Code Start
+***************************************/
+
+.footer-top-section{
+    width:100%;
+    background:#2f4052;
+}
+.footer-top-section h4 {
+    margin: 5.1rem 0 1.4rem 0;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.footer-top-section p {
+
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #a3b1bf;
+    margin-top: 2rem;
+}
+.footer-top-section h6 {
+    color: #a3b1bf;
+    font-size: 1.2rem;
+    margin-bottom: 4.5rem;
+}
+
+.footer-top-section .third-col ul li{
+    color:#a3b1bf;
+    font-size: 1.2rem;
+}
+ .foot1 input{
+    width:100%;
+    padding:.8rem;
+    background:#4e5c6c;
+    color:#828e99;
+    border-radius: .5rem;
+    border:.1rem solid #4e5c6c;
+}
+ .foot1{
+     position: relative;
+}
+.foot2 {
+    position: absolute;
+    top: .2rem;
+    right: .4rem;
+}
+.foot2 .btn-info {
+    padding: .4rem 1rem;
+    font-size: 1.2rem;
+    background: #00bc9c;
+     transition:1s
+}
+.foot2 .btn-info:hover{
+    background:#2F4052;
+    transition:1s
+   
+}
+
+.third-col ul li img{
+    padding-right:1rem;
+}
+.card {
+    border: 0rem;
+    border-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    margin: .5rem .5rem .5rem 0;
+}
+
+/**************************************
+    Footer-Top Section Code End
+***************************************/
+
+/**************************************
+    Footer Section Code Start
+***************************************/
+
+.footer-section{
+    width:100%;
+    padding:2rem 0;
+    background:#283645;
+    margin:0 auto;
+}
+.footer-section .bottom-row{
+    margin-top:1.6rem;
+}
+
+.footer-section p {
+    color: #506a85;
+    font-size: 2rem;
+}
+.footer-section .footer-ul{
+    float:right;
+}
+.footer-section .footer-ul li{
+    display: inline-block;
+   
+}
+.footer-section .footer-ul li a {
+    color: #506a85;
+    font-weight: 600;
+    padding: .8rem;
+    font-size: 2rem;
+}
+
+
+/**************************************
+    Footer Section Code Start
+***************************************/
+
+    .isStuck{
+    left:0;
+    right:0;
+    width:100%;
+    background:#F5F7FA;
+}
+
+
+.navbar-wrapper {
+  margin-top:0;
+  position: relative;
+  z-index: 55;
+}
